@@ -1,0 +1,53 @@
+$black: #000;
+$white: #fff;
+$alpha: #17172d;
+$beta: #2d2d41;
+$primary: #8cbaff;
+$danger: #ff3e3e;
+$success: #1fdb00;
+
+// Font sizes below:
+$font-sizes: (
+  "10px": 10px,
+  "12px": 12px,
+  "14px": 14px,
+  "16px": 16px,
+  "18px": 18px,
+  "24px": 24px,
+  "32px": 32px,
+);
+
+$theme-colors: (
+  "black": $black,
+  "white": $white,
+  "alpha": $alpha,
+  "beta": $beta,
+  "primary": $primary,
+  "danger": $danger,
+  "success": $success,
+) !default;
+
+$font-sizes: (
+  "10px": 10px,
+  "12px": 12px,
+  "14px": 14px,
+  "16px": 16px,
+  "18px": 18px,
+  "24px": 24px,
+  "32px": 32px,
+);
+
+$spacer: 4px;
+$spacers: (
+  0: 0,
+  "4px": $spacer * 1,
+  "8px": $spacer * 2,
+  "12px": $spacer * 3,
+  "16px": $spacer * 4,
+  "20px": $spacer * 5,
+  "24px": $spacer * 6,
+  "28px": $spacer * 7,
+  "32px": $spacer * 8,
+  "36px": $spacer * 9,
+  "48px": $spacer * 12,
+);
